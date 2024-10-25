@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    outline: none;
+}
+
+body {
+    background-color: rgb(43, 61, 226);
+
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    /*ocupa a linha toda*/
+    margin: 20px auto;
+
+
+}
+
+main {
+    width: 375px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 34px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400px;
+    /* grossura da letra*/
+    font-size: 14px;
+    /* tamanho da letra*/
+}
+
+select,
+input {
+    background: #777777;
+    border: 2px solid #BBBBBB;
+    border-radius: 12px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.input-currency {
+    /* tentando mudar o placeholder */
+    background: white;
+    color: red;
+}
+
+
+
+button {
+    background-color: orange;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #F4F4F4;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+
+
+section {
+    border: 1px solid red;
+    border-radius: 30px;
+    margin-top: 86px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
+
+.currency-value,.currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
